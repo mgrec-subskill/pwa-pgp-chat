@@ -1,0 +1,52 @@
+.list-contact{
+  height: 100vh;
+}
+
+.current-contact {
+  height: 91.8vh;
+}
+
+.col-nopadding{
+  padding: 0;
+}
+
+.list-contact{
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
+
+  .list-group-item{
+    padding: 1.3rem 1.25rem;
+    border: none;
+    cursor: pointer;
+
+    .is-typing{
+      margin-left: 10px;
+    }
+
+    img{
+      width: 50px;
+      margin-right: 10px;
+    }
+
+    &:hover{
+      background: rgba(0, 0, 0, 0.080);
+    }
+
+    &.header-list-item{
+      height: 68px;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+      cursor: initial;
+
+      &:hover{
+        background: initial;
+      }
+    }
+  }
+
+}
+
+.header-current-contact{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  height: 67px;
+  text-align: center;
+  line-height: 67px;
+}
